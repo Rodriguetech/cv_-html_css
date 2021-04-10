@@ -1,0 +1,54 @@
+@media screen and (max-width:  1132px)
+{
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container__sidebar {
+        width: 100%;
+        background-color:#1FB6F1;
+    }
+    
+
+    .sidebar-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    
+
+}
+
+
+@media screen and (max-width:  902px){
+
+    .sidebar-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        letter-spacing: 0.1rem;
+    }
+}
+
+
+@media screen and (max-width:  586px){
+    .ann_form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ann{
+        margin-bottom: 2rem;
+    }
+  
+    .recom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
